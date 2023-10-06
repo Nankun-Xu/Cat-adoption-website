@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #fde7e9;
+  --bg-banner-color: #9EBC9E;
+  --bg-banner-select-color: #ffc5c5;
+  --text-color:grey;
+  --text-select-color:#e72f76;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+#root{
+  height: 100%;
+}
+
+

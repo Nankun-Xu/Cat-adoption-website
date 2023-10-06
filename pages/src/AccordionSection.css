@@ -1,0 +1,32 @@
+.accordian__button{
+    margin-top:0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.66);
+    border: 1px solid gray;
+
+    text-align: left;
+    font-size: 1rem;
+}
+
+.accordian__button:hover{
+    background-color:var(--bg-banner-select-color);
+    color: azure;
+}
+
+.accordian__button::after{
+    content: "+";
+}
+
+.accordian__button--open::after{
+    content: "-";
+}
+
+.accordian__text{
+    padding: 1rem;
+    color: gray;
+    font-style: italic;
+}

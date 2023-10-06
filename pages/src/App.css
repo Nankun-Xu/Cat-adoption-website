@@ -1,0 +1,17 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  width: 100%;
+
+  overflow:scroll;
+
+  background-color: var(--bg-color);
+}
+
+.app.dark {
+  --bg-color: #c4bcbd;
+  --bg-banner-color: #7b7979;
+  --bg-banner-select-color: #FFCFD2;
+}
+
